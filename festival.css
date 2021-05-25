@@ -1,0 +1,274 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.portada {
+    width: 100%;
+    height: 85%;
+    background-image: url(https://kuarteto.com/wp-content/uploads/2016/07/damian-cordoba-noche-xl-post.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.portada h1 {
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    font-family: 'Goblin One', cursive;
+    font-size: 400%;
+    text-shadow: 4px -8px 3px rgba(69,69,225,0.6);
+}
+
+.opacidad {
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar{
+    position: fixed;
+    padding: 1.5em; 
+    width: 100%;
+    z-index: 8;
+    background-color: rgba(236, 29, 81, 0.4);
+}
+
+.list-nav{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.list-nav li {
+    font-family: 'Goblin One', cursive;
+    margin: 7px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.list-nav li:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sec-crono {
+    background-color: rgb(26, 26, 26);
+}
+
+.sec-crono h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Goblin One', cursive;
+    padding-bottom: 0.7em;
+    padding-top: 3em;
+    font-size: 250%;
+}
+
+.sec-crono p {
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 400%;
+    color: whitesmoke;
+    text-shadow: 10px 0px 2px rgba(90,23,23,0.6);
+}
+
+.crono-p1 {
+    padding-top: 2em ;
+    padding-bottom: 1em;
+}
+
+.crono-p2{
+    padding-bottom: 2.5em;
+}
+
+.section-ubi {
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    height: 80%;
+}
+
+.section-ubi h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Goblin One', cursive;
+    padding-bottom: 0.7em;
+    padding-top: 3em;
+    font-size: 250%;
+}
+
+.div-ubi {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.section-cuarteteros {
+    background-color: rgb(14, 14, 14);
+    width: 100%;  
+    height: 100%;
+}
+
+.div-tit {
+    text-align: center;
+    color: white;
+    font-family: 'Goblin One', cursive; 
+}
+
+.div-tit h2 {
+    font-size: 250%;
+    padding-bottom: 2em;
+    padding-top: 3em;
+}
+
+.xd{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cuarteteros{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+    height: 70%;
+    -webkit-box-shadow: 0px 2px 21px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 2px 21px 0px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 2px 21px 0px rgba(255, 255, 255, 0.75);
+}
+
+.cuarteteros img{
+    display: flex;
+    justify-content: center;
+    height: 15em;
+    width: 85%;
+    padding: 30px 25px 30px 25px;
+}
+
+.cuarteteros h3{
+    color: white;
+    font-family: 'Goblin One', cursive;
+    padding-bottom: 0.5em;
+}
+
+.div-separador {
+    width: 100%;
+    height: 20px;
+    background-color: black;
+}
+
+.div-separador-ubi {
+    width: 100%;
+    padding-bottom: 5em;
+    background-color:  rgb(21, 21, 21);
+}
+
+.section-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    font-family: 'Goblin One', cursive;
+}
+
+.section-info h2{
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 0em;
+    font-size: 250%;
+}
+
+.section-info p {
+    text-align: center;
+    padding-bottom: 1em;
+    text-shadow: 4px 4px 2px rgba(255,101,101,0.6);
+    font-size: 0.9em;
+}
+
+.div-info2 {
+    display: flex;
+    justify-content: center;
+}
+
+.div-info2 input {
+    background-color: rgb(90,23,23);
+    border-color: rgb(0, 0, 0);
+    padding: 0.5em;
+}
+
+.div-info2 button {
+    padding: 0.4em;
+    border-radius: 18%;
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-shadow: 0px 2px 3px rgba(255,255,255,0.6);
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.div-footer i {
+    font-size: 2em;
+    margin: 0px 10px;
+    color: white;
+}
+   
+
+.div-info2 button:hover {
+    background-color: black;
+    color: white;  
+    cursor: pointer;  
+}
+
+.div-info2 input:hover {
+    cursor: pointer;  
+}
+
+.cuarteteros:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.icon-facebook:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.icon-instagram:hover {
+    color: #c13584;
+    cursor: pointer;
+}
+
+.icon-twitter:hover {
+    color: #1da1f2;
+    cursor: pointer;
+}
+
